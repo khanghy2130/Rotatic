@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	touch-action: manipulation;
+	background: #000000;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+canvas {
+  	display: block;
+  	margin: auto;
+  	margin-bottom: 10px;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: #eee;
+}
+
