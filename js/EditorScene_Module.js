@@ -52,7 +52,6 @@ function EditorScene_Module(p5){
 		p5.fill(0,0,0, 50);
 		for (let i=-1; i < 2; i++){
 			if (p5.abs(p5.mouseY - menuY) < 60 && p5.abs(p5.mouseX - (menuX + i*150)) < 60){
-				p5.cursor(p5.HAND);
 				p5.rect(menuX + i*150, menuY, 120, 120, 10);
 
 				// check click -> apply action
@@ -156,7 +155,6 @@ function EditorScene_Module(p5){
 		if (selectSystem.selectedCell === null){
 			for (let i=0; i < gridData.length; i++) {
 				if (gridData[i].onHover()){
-					p5.cursor(p5.HAND);
 					// check click
 					if (p5.mouseClicking() && p5.sceneControl.timer === 0){
 						var cell = gridData[i];
