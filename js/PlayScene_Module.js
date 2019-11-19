@@ -310,7 +310,6 @@ function PlayScene_Module(p5){
 			for (let i=0; i < canRotateCells.length; i++) {
 				var cell = canRotateCells[i];
 				if (cell.onHover()){
-					p5.cursor(p5.HAND);
 					// check click and apply actions (store in undoHistory at the start and check solve)
 					if (p5.mouseClicking()){
 						rotateAndUpdateData(cell, p5.mouseButton === "left", true);
