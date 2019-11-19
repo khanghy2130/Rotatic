@@ -87,8 +87,6 @@ function sketch(p5) {
 	    	// update hoverValue
 	    	if (checkHover){
 	    		if (p5.abs(p5.mouseX - this.x) < this.s * 50 && p5.abs(p5.mouseY - this.y) < this.s * 20){
-			    	p5.cursor(p5.HAND);
-
 			    	// can't take action if scene is transiting
 		    		if (p5.mouseClicking() && p5.sceneControl.timer === 0){
 		    			this.func();
@@ -131,8 +129,6 @@ function sketch(p5) {
 	};
 
 	p5.draw = function() {
-		p5.cursor(p5.ARROW); // reset cursor
-
 		switch (p5.sceneControl.scene) {
 			case "play":
 				p5.playScene.draw();
