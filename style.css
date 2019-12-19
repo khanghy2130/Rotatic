@@ -16,25 +16,3 @@ canvas {
   	margin-bottom: 10px;
 }
 
-a {
-	color: #eee;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
-}
-a:visited {
-	color: #eee;
-}
-
-
-
-.noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-}
