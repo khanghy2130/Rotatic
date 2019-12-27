@@ -10,6 +10,6 @@ This is my first p5js project. It's a puzzle game about rotating the cells on tr
 
 Challenges faced:
 - Set up the triagular grid system.
-- Build an in-game level editor which gives encoded level data.
+- Build an in-game level editor which gives serialized level data.
 - Gameplay: shuffle the board, implant player action, undo option, and check solve.
 - Apply flawless animation between moves.
